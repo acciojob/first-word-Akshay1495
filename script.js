@@ -1,4 +1,5 @@
 function firstWord(s) {
+  s = s.trimStart();
   if (s === "") {
     return "";
   }
@@ -8,6 +9,7 @@ function firstWord(s) {
   }
   return s.slice(0, spaceIndex);
 }
+
 
 // Do not change the code below
 
