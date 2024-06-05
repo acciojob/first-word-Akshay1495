@@ -1,11 +1,9 @@
 function firstWord(s) {
-
-    let str1 = s.split(" ");    
-   return '"' + str1[0] + '"';     
-} 
-
-
-// Do not change the code below
-
-const s = prompt("Enter String:");
+  // your code here
+	s=s.trim();
+	s=s.split(" ");
+	if(s.length<0)
+		return "";
+	return s[0];
+}
 
